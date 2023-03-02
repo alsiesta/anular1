@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SlideshowComponent implements OnInit {
   images = ['freimarkt.jpg', 'garten.jpg', 'oytersee.jpg', 'skatepark.jpg'];
-  headlines = ['Mit voller Wucht ins Detail', 'Wenn Perfektion keine Option mehr ist', 'Immer wieder von vorn', 'Wer kann noch einmal?'];
+  headlines = ['Mit voller Wucht ins Detail', 'Wenn Perfektion keine Option ist', 'Immer wieder von vorn', 'Wer kann noch einmal?'];
   currentImage = 0;
   showImage = true;
 
