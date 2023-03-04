@@ -4,10 +4,12 @@
     <img *ngIf="darkMode" routerLink="/" src="./../../assets/img/dla-logo-black.png" alt="">
     
     <div [class.darkLinks]="darkMode">
-    <a routerLink="/">Home</a>
-    <a routerLink="/data-protection">Data Protection</a>
+    <a routerLink="/"><span translate>Home</span></a>
+    <a routerLink="/data-protection"><span translate>Data Protection</span> </a>
     <!-- <a href="#">Curriculum</a> -->
     <!-- <a href="#">Projects</a> -->
-    <a routerLink="/imprint">Imprint</a>
+    <a routerLink="/imprint"><span translate>Imprint</span></a>
+    <a class="langlink" (click)="translate.use('en');"><span translate>EN</span></a>
+    <a class="langlink" (click)="translate.use('de');"><span translate>DE</span></a>
 </div>
 </header>

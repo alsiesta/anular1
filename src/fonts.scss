@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Haboro-Regular';
+    src: url('./assets/fonts/HaboroSans-NorReg.eot');
+    src: url('./assets/fonts/HaboroSans-NorReg.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/HaboroSans-NorReg.woff2') format('woff2'),
+        url('./assets/fonts/HaboroSans-NorReg.woff') format('woff'),
+        url('./assets/fonts/HaboroSans-NorReg.ttf') format('truetype'),
+        url('./assets/fonts/HaboroSans-NorReg.svg#HaboroSans-NorReg') format('svg');
+    // font-weight: 300;
+    // font-style: normal;
+    // font-display: swap;
+}
+
+@font-face {
+    font-family: 'Haboro-Book';
+    src: url('./assets/fonts/Haboro-NorBoo.eot');
+    src: url('./assets/fonts/Haboro-NorBoo.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/Haboro-NorBoo.woff2') format('woff2'),
+        url('./assets/fonts/Haboro-NorBoo.woff') format('woff'),
+        url('./assets/fonts/Haboro-NorBoo.ttf') format('truetype'),
+        url('./assets/fonts/Haboro-NorBoo.svg#Haboro-NorBoo') format('svg');
+    // font-weight: 400;
+    // font-style: normal;
+    // font-display: swap;
+}
+
+@font-face {
+    font-family: 'Haboro-Black';
+    src: url('./assets/fonts/Haboro-NorBla.eot');
+    src: url('./assets/fonts/Haboro-NorBla.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/Haboro-NorBla.woff2') format('woff2'),
+        url('./assets/fonts/Haboro-NorBla.woff') format('woff'),
+        url('./assets/fonts/Haboro-NorBla.ttf') format('truetype'),
+        url('./assets/fonts/Haboro-NorBla.svg#Haboro-NorBla') format('svg');
+    // font-weight: 900;
+    // font-style: bold;
+    // font-display: swap;
+}

@@ -1,4 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
+import {TranslateService} from '@ngx-translate/core';
+
 
 @Component({
   selector: 'app-menu',
@@ -7,6 +9,6 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class MenuComponent implements OnInit {
   @Input() darkMode = true;
-  constructor() { }
+  constructor(public translate: TranslateService) {}
   ngOnInit(): void{}
 }
